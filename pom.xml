@@ -44,6 +44,11 @@
   </dependencyManagement>
 
   <dependencies>
+    <!-- Spring Cloud LoadBalancer -->
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-loadbalancer</artifactId>
+    </dependency>
     <!-- Starter -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
